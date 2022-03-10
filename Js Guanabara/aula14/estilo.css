@@ -12,21 +12,16 @@ section {
     border-radius: 10PX;
     padding: 15px;
     width: 500px;
-    height: 50px;
+    height: 190px;
     margin: auto;
     box-shadow: 3px 3px 10px rgb(0, 0, 0, 0,363);
 }
 
 div{
-    text-align: center;
-    padding-top: 10px;
+    text-align: left;
+    padding: 5px 5px 1x 5px;
 }
 
-section img {
-    padding: auto;
-    margin-left: 5%;
-    margin-top: 25%;
-}
 
 footer{
   color: white;
