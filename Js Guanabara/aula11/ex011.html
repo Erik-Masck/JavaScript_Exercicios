@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Consulado</h1>
+    Com base na sua nacionalidade? <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="validar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function validar(){
+            var pais = document.getElementById('pais')
+            var res = document.getElementById('res')
+
+            console.log(pais.value)
+            res.innerHTML = `Com base na sua nacionalidade <strong>${pais.value}<strong>`
+                if (pais == 'Brasil'){
+                    res.innerHTML += ' Você é <strong>Brasileiro!</strong> '}
+                res.innerHTML += ' Você é <strong>estrangeiro!</strong>'
+        }
+    </script>
+</body>
+</html>
