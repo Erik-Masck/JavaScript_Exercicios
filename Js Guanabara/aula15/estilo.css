@@ -12,14 +12,14 @@ section {
     border-radius: 10PX;
     padding: 15px;
     width: 500px;
-    height: 400px;
+    height: 450px;
     margin: auto;
     box-shadow: 3px 3px 10px rgb(0, 0, 0, 0,363);
 }
 
 div{
-    text-align: center;
-    padding-top: 10px;
+    text-align: left;
+    padding-top: 5px;
 }
 
 
@@ -27,6 +27,6 @@ footer{
   color: white;
   text-align: center;
   font-size: italic;
-  padding-top: 50px;
+  padding-top: 15px;
 
 }
