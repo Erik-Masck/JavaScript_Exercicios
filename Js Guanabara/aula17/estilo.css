@@ -17,6 +17,10 @@ section {
     box-shadow: 3px 3px 10px rgb(0, 0, 0, 0,363);
 }
 
+select#formlista{
+    width: 150px;
+}
+
 div{
     text-align: left;
     padding-top: 10px;
