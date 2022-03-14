@@ -12,13 +12,13 @@ section {
     border-radius: 10PX;
     padding: 15px;
     width: 500px;
-    height: 50px;
+    height: 300px;
     margin: auto;
     box-shadow: 3px 3px 10px rgb(0, 0, 0, 0,363);
 }
 
 div{
-    text-align: center;
+    text-align: left;
     padding-top: 10px;
 }
 
@@ -27,5 +27,5 @@ footer{
   color: white;
   text-align: center;
   font-size: italic;
-
+  padding-top: 10%;
 }
